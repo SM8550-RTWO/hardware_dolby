@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
 
 # XiaomiDolby
 PRODUCT_PACKAGES += \
-    RtwoeDolby
+    RtwoDolby
 
 # Dolby Proprietary blobs
 PRODUCT_COPY_FILES += \
