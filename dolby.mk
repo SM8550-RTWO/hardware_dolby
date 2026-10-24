@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
 
 # XiaomiDolby
 PRODUCT_PACKAGES += \
-    MarbleDolby
+    RtwoeDolby
 
 # Dolby Proprietary blobs
 PRODUCT_COPY_FILES += \
@@ -134,12 +134,10 @@ PRODUCT_COPY_FILES += \
     $(DOLBY_PATH)/proprietary/vendor/etc/init/vendor.dolbyvision.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolbyvision.media.c2@1.0-service.rc
 
 PRODUCT_PACKAGES += \
-    c2.dolby.avc.dec \
-    c2.dolby.avc.sec.dec \
     c2.dolby.client \
     c2.dolby.egl \
-    c2.dolby.hevc.dec \
-    c2.dolby.hevc.sec.dec \
+    c2.dolby.decoder \
+    c2.dolby.decoder.secure \
     c2.dolby.store \
     libdolbyottcameracontrol \
     libdolbyvision \

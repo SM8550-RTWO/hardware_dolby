@@ -46,7 +46,7 @@
         <!-- C2 dolby vision decoders -->
         <!-- DOLBY_AC4 END -->
         <!-- C2 dolby vision decoders -->
-         <MediaCodec name="c2.dolby.avc-hevc.decoder" type="video/dolby-vision">
+        <MediaCodec name="c2.dolby.avc-hevc.decoder" type="video/dolby-vision">
             <Limit name="size" min="96x96" max="4096x4096"/>
             <Limit name="alignment" value="2x2"/>
             <Limit name="block-size" value="16x16"/>
